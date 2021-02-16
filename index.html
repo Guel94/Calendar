@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--http://www.lawebdelprogramador.com-->
+    <title>5) simple calendar app</title>
+    <meta charset="utf-8">
+    <style>
+        #calendar {
+            font-family:Arial;
+            font-size:12px;
+        }
+        #calendar caption {
+            text-align:left;
+            padding:5px 10px;
+            background-color:#005d66;
+            color:#fff;
+            font-weight:bold;
+            font-size:medium;
+        }
+        #calendar caption div:nth-child(1) {float:left;}
+        #calendar caption div:nth-child(2) {float:right;}
+        #calendar caption div:nth-child(2) a {cursor:pointer;}
+        #calendar th {
+            background-color:#006699;
+            color:#fff;
+            width:40px;
+        }
+        #calendar td {
+            text-align:right;
+            padding:2px 5px;
+            background-color:silver;
+        }
+        #calendar .hoy {
+            background-color:red;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+<h1>5) simple calendar app</h1>
+<table id="calendar">
+    <caption></caption>
+    <thead>
+        <tr>
+            <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+ <script type="text/javascript" src="js\calendar.js"></script>
+</body>
+<footer>
+    <p>Edgar Missael Guel Almendariz 15/02/21</p>
+</footer>
+</html>
+ 
