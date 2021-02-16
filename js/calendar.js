@@ -43,7 +43,7 @@ function mostrarCalendario(year,month)
     }
     resultado+="</tr>";
  
-    var meses=Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+    var meses=Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
  
     // Calculamos el siguiente mes y año
     nextMonth=month+1;
